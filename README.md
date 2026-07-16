@@ -1,45 +1,148 @@
-# restaurant-imaging-program
+# Restaurant Imaging Corrective-Action Program
 
-Case study: a daily-hold plus weekday deep-clean rotation with photo accountability, designed for a store in a national quick-service restaurant chain by Sama Mushtaq, the restaurant manager, after the store failed the company's periodic standards audit. The sanitized program document is in `PROGRAM.md`.
+> A restaurant standards corrective-action program converting recurring cleanliness, food-safety, and regulatory findings into daily ownership, weekly deep-clean rotations, photo evidence, escalation, and monthly re-walks.
 
-## The problem
+I designed and ran this program as the restaurant manager after a periodic standards review identified recurring gaps. The public copy removes the employee's name, exact scores, exact assessment date, and the source corporate document.
 
-In June the store went through the company's periodic standards audit, covering cleanliness, food safety, and regulatory items. Three sections came back at failing level: Clean, Food Safety, and Regulatory, with approximate scores in the mid-60s to low-70s percent range. Exact scores and the assessment document itself are corporate material and are not published here.
+## Program brief
 
-Reading the line items, the failures clustered into two patterns:
+| Field | Detail |
+|---|---|
+| Business challenge | Recurring standards findings had no durable daily owner or rotation capable of reaching deeper maintenance work. |
+| My role | Restaurant manager; program designer, scheduling owner, governance lead, and acceptance reviewer. |
+| Operating owner | A designated RI lead owned the weekday 8:00a-12:00p block; managers on duty owned weekend daily controls. |
+| Cadence | Daily Hold, five weekday deep-clean rotations, photo evidence after each block, roll-forward escalation, and monthly re-walk. |
+| Status | Program designed and run in the store. Post-program assessment scores are not published in this repository. |
+| Related system | The crew scheduler reserved the RI block outside required production coverage. |
 
-1. Daily upkeep items scored zero for "not maintained throughout the shift" - self-serve station, restrooms, dining room, exterior. These fail because no one owns them every day.
-2. Repeat findings from prior walks - hood vents and ansul pipes, baffles, fryer surrounds, the ice machine, inverted pan storage, the self-serve station. These fail because there is no rotation that ever reaches them.
+## Business diagnosis
 
-Two different failure modes need two different mechanisms, which is how the program is structured.
+The assessment findings clustered into two different failure modes:
 
-## The program
+1. **Daily-control gaps:** guest-facing and exterior areas were not consistently maintained throughout the shift because ownership was diffuse.
+2. **Rotation gaps:** deeper or recurring findings were not reached because no weekly cadence assigned them to a named owner and protected time.
 
-RI stands for Restaurant Imaging, the company's term for how the restaurant presents. The program:
+One checklist would not solve both. The program therefore separated a short Daily Hold from a protected rotating deep-clean block.
 
-- A dedicated RI lead (a crew member; name withheld in this copy) owns an 8:00a to 12:00p block on five weekdays (Wed, Thu, Fri, Mon, Tue). The block is carved out of production coverage by the crew scheduler (see the `crew-scheduling-engine` repo in this portfolio).
-- Daily Hold, about 45 to 60 minutes, every RI day: the "not maintained" zero items are reset first, before the lunch push.
-- Rotating deep-clean, roughly 3 hours: each weekday targets a fixed zone group chosen from the audit's worst findings. Wednesday is cook line and hoods; Thursday is CIP, ice machine, and dry storage; Friday is walk-ins and storage; Monday is drive-thru, entrances, and dining; Tuesday is CIP again plus self-serve deep, restroom deep, and dish reset.
-- CIP (the ketchup-dispenser line clean) runs twice a week, Tuesday and Thursday, inside the block.
-- Saturday and Sunday the RI lead is off; the manager on duty runs the Daily Hold only.
+## Operating design
 
-## The accountability loop
+### Protected weekday block
 
-- Photo accountability: the RI lead photographs each completed deep-clean zone, before and after, and sends them to the leader at the end of the block.
-- Roll-forward rule: any zone that cannot be finished rolls to the next same-day-of-week rotation and gets flagged to the manager on duty.
-- Monthly re-walk: the audit line items are re-walked monthly. Items that hold move into the Daily Hold; the next-lowest scores enter the rotation. The rotation is designed to shrink as sections clear.
+- **Owner:** designated RI lead; name withheld
+- **Window:** 8:00a-12:00p
+- **Days:** Wednesday, Thursday, Friday, Monday, Tuesday
+- **Weekend:** RI lead off; manager on duty completes the Daily Hold
+- **Coverage rule:** RI is scheduled outside required production coverage in the companion crew scheduler
 
-## Why the layout looks like this
+### Daily Hold, approximately 45-60 minutes
 
-- The heaviest repeat and zero-score items sit on weekdays when the RI lead owns the block, not left to the weekend skeleton crew.
-- Daily-owner items and rotation items are kept separate because they fail for different reasons.
-- Each day fits the window: about 1 hour of hold plus about 3 hours of one zone group, done before lunch.
+Completed first on each RI day before the lunch push:
 
-## What is in this repo
+- Self-serve station reset, dispensing areas, drip trays, cabinets, and supplies
+- Restroom cleaning, stocking, and hourly-check activation
+- Dining-room floors, high chairs, table caddies, and decor
+- Exterior, patio, parking lot, trash cans, and dumpster-pad condition
 
-- `README.md` - this case study.
-- `PROGRAM.md` - the program document, sanitized: the RI lead's name is replaced with a role label, exact audit scores and assessment dates are redacted, one conversational line was neutralized. No corporate documents, including the audit itself, are included.
+These controls address items that fail when no one owns them every day.
 
-## Context
+### Rotating deep-clean, approximately three hours
 
-Designed and run by a working restaurant manager for his own store; drafted with AI assistance and edited against the actual audit findings. The scheduling side lives in `crew-scheduling-engine`, which reserves the RI block in the weekly schedule and marks CIP mornings on the crew grid.
+#### Wednesday - cook line and hoods
+
+- Hood vents and pipes
+- Baffles removed, cleaned, and rotated back
+- Fryer exteriors and surrounding interiors
+
+#### Thursday - CIP, ice, and dry storage
+
+- Ketchup-dispenser line and holder cleaning
+- Ice-machine interior and bin
+- Dry-storage ingredient bins
+- Hot-holding cabinet, worktable interior, and equipment casters
+
+#### Friday - walk-ins and storage
+
+- Walk-in cooler shelves, corners, ceiling, and light covers
+- Walk-in freezer fan cover and floor
+- Storage-room walls and floors
+
+#### Monday - drive-thru, entrances, and dining
+
+- KDS cords, tea equipment, ceiling, pickup counter, and pay counter
+- Customer entrance glass and frames
+- Dining-room reset
+
+#### Tuesday - CIP, self-serve, restrooms, and dish/prep reset
+
+- Second weekly dispenser-line cleaning
+- Self-serve tower, exterior components, ice chute, and crevices
+- Restroom deep clean
+- Clean, dry, inverted pan and bucket storage
+- Prep smallware and food-contact equipment verification
+
+The public language summarizes the operating mechanism. It is not a substitute for employer procedures, equipment manuals, food-safety requirements, or professional maintenance.
+
+## Accountability loop
+
+```text
+Assign owner and protected block
+  -> complete Daily Hold
+  -> complete that day's rotation
+  -> capture before-and-after photo evidence
+  -> flag incomplete work to the manager on duty
+  -> roll unfinished work to the next same-day rotation
+  -> re-walk findings monthly
+  -> move sustained controls into Daily Hold
+  -> add the next priority gap to the rotation
+```
+
+The rotation was designed to shrink or change as standards stabilized rather than become a permanent static checklist.
+
+## Measures and evidence
+
+| Measure or artifact | Evidence status |
+|---|---|
+| Source assessment | Employer-confidential; not published. |
+| Initial gaps | Sanitized summary of three below-standard categories and recurring line items. |
+| Program document | Sanitized original working program. |
+| Daily and weekly cadence | Implemented operating design. |
+| Photo accountability | Program requirement; employee photos are not published. |
+| Post-program assessment score | Not published; no numeric improvement claim is made here. |
+
+## Repository contents
+
+| File | Purpose |
+|---|---|
+| `README.md` | Recruiter-facing program case, evidence status, and limitations. |
+| `PROGRAM.md` | Sanitized working corrective-action program. |
+
+## Role, contributors, and authorship
+
+Sama Mushtaq diagnosed the operating pattern, designed the cadence, protected the schedule block, assigned decision and escalation rules, and owned manager review. The designated RI lead executed weekday work and produced photo evidence. Managers on duty maintained weekend controls and handled escalations.
+
+This repository demonstrates program design and governance; it does not claim that Sama personally performed every cleaning task.
+
+## AI assistance
+
+The working program document was drafted with AI assistance and then edited against the actual assessment findings and operating constraints. Sama supplied the source context, determined priorities and ownership, validated feasibility, and made the operating decisions. AI did not perform the assessment, execute the work, or verify outcomes.
+
+## Confidentiality and provenance
+
+- The employee's identity is replaced with a role label.
+- Exact scores and the exact assessment date are removed.
+- The source corporate assessment is not included.
+- Employer-specific records, photos, employee evidence, and incident information remain private.
+- Company-specific terminology and detailed findings can still create identification risk and should be reviewed before republication.
+
+## Limitations
+
+- Single-store operating design; not validated as a universal restaurant standard.
+- No published post-program score or controlled causal comparison.
+- Photo completion is evidence of task execution, not independent verification of sustained compliance.
+- The program depends on staffing, protected time, manager reinforcement, and applicable safety procedures.
+- Equipment-specific work must follow employer, manufacturer, and regulatory requirements.
+
+## Related
+
+- [Crew scheduling engine](https://github.com/Samamak1/crew-scheduling-engine)
+- [Sama Mushtaq program leadership portfolio](https://samamak1.github.io/)
