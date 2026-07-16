@@ -1,61 +1,115 @@
-# Restaurant Imaging (RI) Program
+# Restaurant Imaging Standards Recovery Program
 
-> Sanitized copy for publication: the RI lead's name is replaced with a role label, exact audit scores and assessment dates are redacted, and one conversational line was neutralized. Otherwise this is the working program document.
+> Representative sanitized reconstruction of the operating cadence. This document preserves the program design, ownership model, controls, and acceptance logic without reproducing a company assessment, score, date, employee record, or location-specific finding.
 
-**Lead:** RI lead (crew member, name withheld)  |  **Block:** 8:00a-12:00p (4 hrs)  |  **Days:** Wed, Thu, Fri, Mon, Tue
-**Built from:** the company's June periodic standards audit (Areas of Opportunity). Targets the three red sections, Clean, Food Safety, and Regulatory (all three scored at failing level; exact scores redacted), with priority on repeat findings and zero-score items.
+## Program objective
 
-Everyone is on at 8:00a at the earliest, so RI starts at 8:00a and the box is reset before the lunch push. The RI lead is off Sat/Sun; on those days the MOD runs the Daily Hold (below). A second person can be added for weekend RI if needed.
+Turn recurring restaurant standards gaps into a visible operating system with:
 
----
+- A protected weekday work block
+- A concise daily hold for guest-facing and food-service areas
+- A rotating weekly deep-clean plan
+- Photo-based completion evidence
+- Manager review and exception escalation
+- Periodic re-walks that update the rotation
 
-## Every RI day, Daily Hold (about 45 to 60 min)
+The program separates routine shift maintenance from deeper recovery work so both have a named owner and review cadence.
 
-These are the "not maintained throughout the shift" zeros from the eval. Do them first, every day:
+## Ownership model
 
-- **Self-serve station:** ice topped in drip pan, all aerators flowing/refilled, ketchup dispenser and drip tray wiped, cabinets and condiment/napkin area clean.
-- **Restrooms:** fully stocked, toilets/sinks/floors clean, hourly check started.
-- **Dining room:** floors, high chairs, table caddies, decor wiped.
-- **Exterior:** parking lot swept (no trash/debris), patio concrete, exterior trash cans, dumpster pad (nothing on the ground, lids closed).
+| Role | Accountability |
+|---|---|
+| Program lead | Sets priorities, protects capacity, reviews evidence, resolves blockers, and updates the cadence. |
+| Designated RI lead | Executes the protected weekday block, records completion, and flags exceptions. |
+| Manager on duty | Maintains the daily hold, validates handoffs, and owns weekend coverage. |
+| Functional partners | Support work that requires food-safety, facilities, equipment, or approved chemical procedures. |
 
----
+Names, schedules, and employee-level performance records are intentionally excluded.
 
-## Rotating Deep-Clean (the rest of the block)
+## Daily hold
 
-### WEDNESDAY, Cook line / hoods (top repeat safety zeros)
-- Hood vents: remove dust buildup above the line; **ansul pipes wiped** (repeat zero-score finding).
-- Hood vent **baffles** pulled, run through dish, rotated back (repeat zero-score finding).
-- Fryer exteriors and surround interiors degreased (repeat low-score finding).
+Complete these controls every operating day before deeper rotation work:
 
-### THURSDAY, CIP + ice + dry storage
-- **CIP:** clean the full ketchup-dispenser / ShurFlo line and bag holder (repeat finding on the dispenser line).
-- **Ice machine** interior deep clean and bin (zero-score finding, was in food-contact buildup).
-- Salt / flour / sugar bins wiped inside and out (repeat low-score finding); hot-holding cabinet/table interior; toast grill casters.
+1. Entry, guest-facing surfaces, and high-touch points are reset.
+2. Service stations and self-service areas are clean, stocked, and ready.
+3. Food-contact tools and storage containers are clean, dry, and properly stored.
+4. Floors, drains, waste points, and spill risks are addressed through approved procedures.
+5. Any equipment, pest, chemical, temperature, or facilities concern is escalated rather than worked around.
 
-### FRIDAY, Walk-ins + storage
-- Walk-in **cooler:** shelving tops and corners, ceiling, light covers (repeat low-score finding).
-- Walk-in **freezer:** fan cover and floor (low-score finding).
-- Storage room walls and floors (low-score findings).
+The manager on duty confirms the hold during the shift and records any carryover.
 
-### MONDAY, Drive-thru + entrances + dining
-- DT: KDS cords, tea brewers / aerators, DT ceiling, **pickup and pay counters** (pay counter repeat finding).
-- Customer entrance doors interior glass and frames (repeat low-score finding).
-- Dining room reset: floors, high chairs, decor (repeat low-score finding).
+## Representative weekly rotation
 
-### TUESDAY, CIP + self-serve deep + restroom deep + dish reset
-- **CIP:** ketchup-dispenser line again (Tue and Thu cadence).
-- Self-serve deep: soda tower and aerators exterior, ice chute, crevices, condiment/napkin (repeat zeros).
-- Restroom deep clean: hallway floor and doors, ceiling vents, fixtures.
-- **Dish/prep reset:** buckets and pans stored clean/dry/**inverted** (repeat zero-score finding); juicer (food contact surface), lemon cutter, prep smallwares confirmed clean and put away (zero-score finding).
+| Day | Primary zone | Representative work |
+|---|---|---|
+| Wednesday | Cook line and overheads | Exterior equipment surfaces, accessible overhead buildup, approved removable components, and surrounding floors. |
+| Thursday | Prep and cold storage | Shelving, non-food-contact interiors, carts, storage organization, and reachable fixtures. |
+| Friday | Dining and entry | Doors, glass, fixtures, seating details, high-touch surfaces, and guest-facing reset. |
+| Monday | Self-service and service support | Beverage-station exteriors, condiment areas, approved removable components, and service storage. |
+| Tuesday | Dish, smallwares, and verification | Clean-and-dry storage, accessible prep tools, recovery items, and a manager verification walk. |
 
----
+The sequence is representative. Real site assignments, findings, and equipment identifiers are not published.
 
-## Why this layout
-- **CIP runs Tue and Thu**, both inside the RI lead's block, both ketchup-line resets per the eval.
-- The heaviest **repeat / zero** items (hoods, ansul, baffles, ice machine, inverted pans, self-serve) are hit on weekdays when the RI lead owns the box, not left to the weekend.
-- Each day is about 3 hrs of focused deep-clean after the roughly 1-hr Daily Hold, which fits the 8:00a-12:00p window.
+## Execution standard
 
-## Accountability
-- The RI lead photographs each completed deep-clean zone (before/after) and drops them to the leader at end of block.
-- Any zone that can't be finished rolls to the **next same-day-of-week** rotation and gets flagged to the MOD.
-- Re-walk the audit line items monthly; as red zones clear, fold maintained items into the Daily Hold and add the next-lowest scores to the rotation.
+For each assigned block:
+
+1. Confirm the zone, approved method, and required safety controls.
+2. Protect or relocate product and tools before work begins.
+3. Complete only work within training and authorization.
+4. Restore the area to operating readiness.
+5. Capture completion evidence without guests, employees, screens, labels, or confidential records in frame.
+6. Record blockers and route facilities or food-safety issues to the appropriate owner.
+
+The RI lead does not disassemble protected equipment, bypass lockout procedures, mix chemicals, or perform work requiring a licensed technician.
+
+## Evidence and acceptance
+
+A work block is accepted when:
+
+- The assigned zone is complete and operating-ready.
+- Evidence shows the result without exposing people or internal records.
+- Exceptions have an owner and target date.
+- The manager verifies the block or records the reason for carryover.
+- Incomplete work is not marked complete merely because the protected time elapsed.
+
+Suggested tracker fields:
+
+```text
+date | zone | planned work | status | evidence reference | blocker | owner | target date | manager review
+```
+
+## Governance cadence
+
+- **Daily:** manager verifies the hold and reviews exceptions.
+- **Weekly:** program lead reviews completion, recurring blockers, and capacity needs.
+- **Periodic:** leadership re-walks the operating zones and refreshes the rotation.
+- **Escalation:** safety, equipment, facilities, pest, or repeated ownership issues move to the accountable functional owner.
+
+## Measurement
+
+Use forward-looking program measures that do not depend on publishing company assessment data:
+
+- Planned blocks completed on time
+- Exceptions closed by target date
+- Repeat exceptions by zone
+- Manager verifications completed
+- Escalations aging beyond service-level expectation
+- Rotation changes driven by re-walk findings
+
+No employer score, baseline, or post-program result is claimed in this public reconstruction.
+
+## Evidence status
+
+| Item | Public evidence status |
+|---|---|
+| Program architecture | Representative reconstruction of the operating model. |
+| Ownership and escalation | Preserved at the role level; names and employee records withheld. |
+| Weekly rotation | Generalized from the type of cadence used; site-specific assignments withheld. |
+| Completion photos | Not published. |
+| Company assessments and scores | Not published or paraphrased. |
+| Outcome improvement | No numeric claim made without publishable evidence. |
+
+## Public-use boundary
+
+This artifact demonstrates how Sama Mushtaq translated standards gaps into ownership, protected capacity, visible controls, evidence, and governance. It is not a cleaning manual, a company assessment, an employee-performance record, or a substitute for site safety and food-safety procedures.

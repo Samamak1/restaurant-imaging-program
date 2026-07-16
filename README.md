@@ -2,7 +2,7 @@
 
 > A restaurant standards corrective-action program converting recurring cleanliness, food-safety, and regulatory findings into daily ownership, weekly deep-clean rotations, photo evidence, escalation, and monthly re-walks.
 
-I designed and ran this program as the restaurant manager after a periodic standards review identified recurring gaps. The public copy removes the employee's name, exact scores, exact assessment date, and the source corporate document.
+I designed and ran this program as the restaurant manager after a periodic standards review identified recurring gaps. The public case uses role-level ownership and does not reproduce company assessments, scores, dates, employee records, or location-specific findings.
 
 ## Program brief
 
@@ -38,47 +38,25 @@ One checklist would not solve both. The program therefore separated a short Dail
 
 Completed first on each RI day before the lunch push:
 
-- Self-serve station reset, dispensing areas, drip trays, cabinets, and supplies
-- Restroom cleaning, stocking, and hourly-check activation
-- Dining-room floors, high chairs, table caddies, and decor
-- Exterior, patio, parking lot, trash cans, and dumpster-pad condition
+- Guest-facing and high-touch surfaces
+- Service-station readiness and approved removable components
+- Food-contact tool and storage verification
+- Floors, waste points, and immediate spill risks
+- Escalation of equipment, pest, chemical, temperature, or facilities concerns
 
 These controls address items that fail when no one owns them every day.
 
 ### Rotating deep-clean, approximately three hours
 
-#### Wednesday - cook line and hoods
+The representative rotation covers five operating zones:
 
-- Hood vents and pipes
-- Baffles removed, cleaned, and rotated back
-- Fryer exteriors and surrounding interiors
+1. Cook line and accessible overheads
+2. Prep and cold storage
+3. Dining and entry
+4. Self-service and service support
+5. Dish, smallwares, recovery work, and manager verification
 
-#### Thursday - CIP, ice, and dry storage
-
-- Ketchup-dispenser line and holder cleaning
-- Ice-machine interior and bin
-- Dry-storage ingredient bins
-- Hot-holding cabinet, worktable interior, and equipment casters
-
-#### Friday - walk-ins and storage
-
-- Walk-in cooler shelves, corners, ceiling, and light covers
-- Walk-in freezer fan cover and floor
-- Storage-room walls and floors
-
-#### Monday - drive-thru, entrances, and dining
-
-- KDS cords, tea equipment, ceiling, pickup counter, and pay counter
-- Customer entrance glass and frames
-- Dining-room reset
-
-#### Tuesday - CIP, self-serve, restrooms, and dish/prep reset
-
-- Second weekly dispenser-line cleaning
-- Self-serve tower, exterior components, ice chute, and crevices
-- Restroom deep clean
-- Clean, dry, inverted pan and bucket storage
-- Prep smallware and food-contact equipment verification
+Specific equipment identifiers, company line items, and site assignments are intentionally excluded. `PROGRAM.md` documents the representative execution and acceptance standard.
 
 The public language summarizes the operating mechanism. It is not a substitute for employer procedures, equipment manuals, food-safety requirements, or professional maintenance.
 
@@ -103,8 +81,8 @@ The rotation was designed to shrink or change as standards stabilized rather tha
 | Measure or artifact | Evidence status |
 |---|---|
 | Source assessment | Employer-confidential; not published. |
-| Initial gaps | Sanitized summary of three below-standard categories and recurring line items. |
-| Program document | Sanitized original working program. |
+| Initial gaps | Generalized problem pattern; company categories and line items are not published. |
+| Program document | Representative sanitized reconstruction of the operating cadence. |
 | Daily and weekly cadence | Implemented operating design. |
 | Photo accountability | Program requirement; employee photos are not published. |
 | Post-program assessment score | Not published; no numeric improvement claim is made here. |
@@ -114,7 +92,7 @@ The rotation was designed to shrink or change as standards stabilized rather tha
 | File | Purpose |
 |---|---|
 | `README.md` | Recruiter-facing program case, evidence status, and limitations. |
-| `PROGRAM.md` | Sanitized working corrective-action program. |
+| `PROGRAM.md` | Representative program architecture, controls, evidence rules, and public-use boundary. |
 
 ## Role, contributors, and authorship
 
@@ -124,15 +102,14 @@ This repository demonstrates program design and governance; it does not claim th
 
 ## AI assistance
 
-The working program document was drafted with AI assistance and then edited against the actual assessment findings and operating constraints. Sama supplied the source context, determined priorities and ownership, validated feasibility, and made the operating decisions. AI did not perform the assessment, execute the work, or verify outcomes.
+The public `PROGRAM.md` reconstruction was drafted with AI assistance from the abstracted operating model and then reviewed for confidentiality. Sama supplied the source context, determined priorities and ownership, validated feasibility, and made the operating decisions. AI did not perform the review, execute the work, or verify outcomes.
 
 ## Confidentiality and provenance
 
-- The employee's identity is replaced with a role label.
-- Exact scores and the exact assessment date are removed.
-- The source corporate assessment is not included.
+- Ownership is described at the role level; names, schedules, and employee-performance records are not included.
+- Company assessments, scores, dates, categories, and location-specific line items are not reproduced or paraphrased.
 - Employer-specific records, photos, employee evidence, and incident information remain private.
-- Company-specific terminology and detailed findings can still create identification risk and should be reviewed before republication.
+- The public artifact focuses on program design, governance, and acceptance logic.
 
 ## Limitations
 
